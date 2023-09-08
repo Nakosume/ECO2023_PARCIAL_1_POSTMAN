@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "6dee26c6-76ea-4d30-996d-9765ff2faed8",
+		"name": "ECO2023_PARCIAL_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29616572"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/items/550",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/items/550",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"items",
+						"550"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/items/550",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"id\": 550,\r\n            \"name\": \"Ginzoku\",\r\n            \"type\": \"Katana\",\r\n            \"mode\": \"Ataque\",\r\n            \"charaId\": 1006106104\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/items/550",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"items",
+						"550"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/items",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"id\": 550,\r\n            \"name\": \"Gaebolg\",\r\n            \"type\": \"lanza\",\r\n            \"mode\": \"Ataque\",\r\n            \"charaId\": 1006106104\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/items",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/charas/420",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/charas/420",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"charas",
+						"420"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/charas/1006106104",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"id\": 1006106104,\r\n            \"name\": \"Zenith\",\r\n            \"level\": 64,\r\n            \"class\": \"Dark Knight\",\r\n            \"userId\": 1006106410\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/charas/1006106104",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"charas",
+						"1006106104"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/charas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"id\": 420,\r\n            \"name\": \"zero\",\r\n            \"level\": 69,\r\n            \"class\": \"Samurai\",\r\n            \"userId\": 1006106410\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/charas",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"charas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/users/1006106410",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/users/1006106410",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"1006106410"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/users/1006106410",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 64646464,\r\n    \"name\": \"Samus\",\r\n    \"last\": \"Aran\",\r\n    \"email\": \"samaran@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/users/1006106410",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"1006106410"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 123456789,\r\n    \"name\": \"Pepo\",\r\n    \"last\": \"Perea\",\r\n    \"email\": \"pepoP@hotmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/users",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/items",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/charas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/charas",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"charas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/users",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
